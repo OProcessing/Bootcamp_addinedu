@@ -1,4 +1,3 @@
-
 import cv2
 
 cap = cv2.VideoCapture("/dev/video0")
@@ -10,7 +9,7 @@ try:
     width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
     heigth = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
     print(f'width = {width}, heigth = {heigth}')
-    
+
     while True:
         ret, frame = cap.read()
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)

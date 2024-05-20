@@ -9,7 +9,7 @@ from PyQt5.QtCore import Qt
 oper_list = ['+', '-', '/', '*', '%']
 num_list = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
-from_class = uic.loadUiType("./cal.ui")[0]
+from_class = uic.loadUiType('/home/han/Desktop/Han_ws/00.Data/05.PyQt/cal.ui')[0]
 
 class WindowClass(QMainWindow, from_class) :
     def __init__(self) :
