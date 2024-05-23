@@ -6,8 +6,7 @@ from ultralytics import YOLO
 
 model = YOLO('yolov8n-pose.pt')
 img = cv2.imread('/home/han/Desktop/Han_ws/00.Data/08.YOLO/kirby.jpeg')
-circle = cv2.imread('/home/han/Desktop/Han_ws/00.Data/06.openCV/data/circle.jpg')
-circle = cv2.cvtColor(circle, cv2.COLOR_GRAY2BGR)
+circle = cv2.imread('/home/han/Desktop/Han_ws/00.Data/06.openCV/data/circle.jpg', cv2.IMREAD_GRAYSCALE)
 circle = cv2.resize(circle, (640, 480))
 cap = cv2.VideoCapture("/dev/video0")
 
@@ -49,8 +48,8 @@ try :
                     print(e)
 
         output = cv2.cvtColor(frame, cvt_color)
-        output = cv2.add(output, circle)
         if vflip == True : output = cv2.flip(output, 0)
+        output = cv2.add(output, circle)
         if hflip == True : output = cv2.flip(output, 1)
 
         cp = (output.shape[1] / 2, output.shape[0] / 2)
