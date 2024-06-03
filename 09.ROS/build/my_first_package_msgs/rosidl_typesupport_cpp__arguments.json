@@ -1,0 +1,17 @@
+{
+  "package_name": "my_first_package_msgs",
+  "output_dir": "/home/han/Desktop/Han_ws/09.ROS/build/my_first_package_msgs/rosidl_typesupport_cpp/my_first_package_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/han/Desktop/Han_ws/09.ROS/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs:msg/CmdAndPoseVel.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/han/Desktop/Han_ws/09.ROS/build/my_first_package_msgs/rosidl_adapter/my_first_package_msgs/msg/CmdAndPoseVel.idl"
+  ]
+}
