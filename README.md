@@ -1,2 +1,2 @@
 # Perosnal Repository
-This Repository is for record
+This Repository is for recording
