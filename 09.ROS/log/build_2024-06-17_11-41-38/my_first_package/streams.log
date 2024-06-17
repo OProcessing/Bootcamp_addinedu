@@ -1,0 +1,30 @@
+[0.676s] Invoking command in '/home/han/Desktop/Han_ws/09.ROS/src/my_first_package': PYTHONPATH=/home/han/Desktop/Han_ws/09.ROS/build/my_first_package/prefix_override:/home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/han/Desktop/Han_ws/09.ROS/build/my_first_package/build install --record /home/han/Desktop/Han_ws/09.ROS/build/my_first_package/install.log --single-version-externally-managed install_data
+[0.941s] running egg_info
+[0.942s] writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO
+[0.942s] writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt
+[0.942s] writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt
+[0.942s] writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt
+[0.942s] writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt
+[0.944s] reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.945s] writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'
+[0.945s] running build
+[0.945s] running build_py
+[0.946s] copying my_first_package/my_multi_thread.py -> /home/han/Desktop/Han_ws/09.ROS/build/my_first_package/build/lib/my_first_package
+[0.947s] running install
+[0.947s] running install_lib
+[0.947s] copying /home/han/Desktop/Han_ws/09.ROS/build/my_first_package/build/lib/my_first_package/my_multi_thread.py -> /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/python3.10/site-packages/my_first_package
+[0.948s] byte-compiling /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/python3.10/site-packages/my_first_package/my_multi_thread.py to my_multi_thread.cpython-310.pyc
+[0.948s] running install_data
+[0.948s] running install_egg_info
+[0.949s] removing '/home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.950s] Copying ../../build/my_first_package/my_first_package.egg-info to /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/python3.10/site-packages/my_first_package-0.0.0-py3.10.egg-info
+[0.950s] running install_scripts
+[0.975s] Installing dist_turtle_action_server script to /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/my_first_package
+[0.975s] Installing my_first_node script to /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/my_first_package
+[0.975s] Installing my_multi_thread script to /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/my_first_package
+[0.975s] Installing my_publisher script to /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/my_first_package
+[0.975s] Installing my_service_server script to /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/my_first_package
+[0.975s] Installing my_subscriber script to /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/my_first_package
+[0.975s] Installing turtle_cmd_and_pose script to /home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/my_first_package
+[0.976s] writing list of installed files to '/home/han/Desktop/Han_ws/09.ROS/build/my_first_package/install.log'
+[1.007s] Invoked command in '/home/han/Desktop/Han_ws/09.ROS/src/my_first_package' returned '0': PYTHONPATH=/home/han/Desktop/Han_ws/09.ROS/build/my_first_package/prefix_override:/home/han/Desktop/Han_ws/09.ROS/install/my_first_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_first_package build --build-base /home/han/Desktop/Han_ws/09.ROS/build/my_first_package/build install --record /home/han/Desktop/Han_ws/09.ROS/build/my_first_package/install.log --single-version-externally-managed install_data
