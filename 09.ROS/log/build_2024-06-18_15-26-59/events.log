@@ -1,0 +1,2 @@
+[0.000000] (-) TimerEvent: {}
+[5.503207] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
