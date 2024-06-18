@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.000639] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.000802] (my_first_package_msgs) JobQueued: {'identifier': 'my_first_package_msgs', 'dependencies': OrderedDict()}
+[0.000916] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.005328] (my_first_package_msgs) JobStarted: {'identifier': 'my_first_package_msgs'}
+[0.099675] (-) TimerEvent: {}
+[0.200192] (-) TimerEvent: {}
+[0.300777] (-) TimerEvent: {}
+[0.332487] (my_first_package) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 54, in build\n    data_files = get_data_files_mapping(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 36, in get_data_files_mapping\n    assert len(data_file) == 2\nAssertionError\n'}
+[0.333072] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 1}
+[0.333592] (my_first_package_msgs) JobEnded: {'identifier': 'my_first_package_msgs', 'rc': 'SIGINT'}
+[0.343356] (-) EventReactorShutdown: {}

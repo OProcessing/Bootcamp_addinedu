@@ -8,6 +8,7 @@ setup.py
 ../../build/my_first_package/my_first_package.egg-info/requires.txt
 ../../build/my_first_package/my_first_package.egg-info/top_level.txt
 ../../build/my_first_package/my_first_package.egg-info/zip-safe
+launch/turtlesim_and_teleop.launch.py
 my_first_package/__init__.py
 my_first_package/dist_turtle_action_server.py
 my_first_package/my_first_node.py

@@ -8,6 +8,7 @@ from geometry_msgs.msg import Twist
 
 from my_first_package_msgs.action import DistTurtle
 from my_first_package.my_subscriber import TurtlesimSubscriber
+from rcl_interfaces.msg import ParameterDescriptor, FloatingPointRange
 from rcl_interfaces.msg import SetParametersResult
 import math
 
@@ -29,8 +30,12 @@ class DistTurtleServer(Node):
         self.publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
         self.action_server = ActionServer(self, DistTurtle, 'dist_turtle', self.excute_callback)
 
+        param_desc_quantile = ParameterDescriptor(
+            description = 'quantile_time description',
+            floating_point_range = [FloatingPointRange(from_value=0.0, to_value=1.0, step=0.01)]
+        )
 
-        self.declare_parameter('quantile_time', 0.75)
+        self.declare_parameter('quantile_time', 0.75, param_desc_quantile)
         self.declare_parameter('almost_goal_time', 0.95)
         (quantile_time, almosts_time) =  self.get_parameters(['quantile_time', 'almost_goal_time'])
 
