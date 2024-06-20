@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000400] (-) JobUnselected: {'identifier': 'my_first_package'}
-[0.000494] (-) JobUnselected: {'identifier': 'my_first_package_msgs'}
-[0.000733] (-) EventReactorShutdown: {}
