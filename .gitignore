@@ -1,0 +1,11 @@
+00.Dyros
+01.EDA/driver/
+01.EDA/data/
+02.SQL/driver/
+02.SQL/data/
+04.arduino/src/libraries/
+05.PyQt/data/
+05.PyQt/ui/
+06.openCV/data/
+07.ML/data/
+08.YOLO/data/
