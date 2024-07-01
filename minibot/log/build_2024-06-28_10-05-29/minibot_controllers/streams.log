@@ -1,0 +1,86 @@
+[0.006s] Invoking command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/path/to/qt/lib:/usr/local/cuda-11.3/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/han/Desktop/Han_ws/10.minibot/src/pinklab_minibot_robot/minibot_controllers -DCMAKE_INSTALL_PREFIX=/home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.131s] -- Detecting C compiler ABI info - done
+[0.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.198s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.204s] -- Detecting CXX compile features
+[0.204s] -- Detecting CXX compile features - done
+[0.206s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.316s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.391s] -- Found minibot_interfaces: 0.0.0 (/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/share/minibot_interfaces/cmake)
+[0.422s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.427s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.434s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.564s] -- Found controller_interface: 2.41.0 (/opt/ros/humble/share/controller_interface/cmake)
+[1.079s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.081s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.115s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.170s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.172s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.189s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.199s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.206s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.225s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.237s] -- Looking for pthread.h
+[1.304s] -- Looking for pthread.h - found
+[1.305s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.358s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.358s] -- Found Threads: TRUE  
+[1.578s] -- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.610s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.699s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.760s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.760s] -- Configured cppcheck include dirs: /home/han/Desktop/Han_ws/10.minibot/src/pinklab_minibot_robot/minibot_controllers/include
+[1.760s] -- Configured cppcheck exclude dirs and/or files: 
+[1.760s] -- Added test 'lint_cmake' to check CMake code style
+[1.761s] -- Added test 'uncrustify' to check C / C++ code style
+[1.761s] -- Configured uncrustify additional arguments: 
+[1.762s] -- Added test 'xmllint' to check XML markup files
+[1.763s] -- Configuring done
+[1.784s] -- Generating done
+[1.785s] -- Build files have been written to: /home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers
+[1.794s] Invoked command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers' returned '0': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/path/to/qt/lib:/usr/local/cuda-11.3/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/han/Desktop/Han_ws/10.minibot/src/pinklab_minibot_robot/minibot_controllers -DCMAKE_INSTALL_PREFIX=/home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers
+[1.795s] Invoking command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/path/to/qt/lib:/usr/local/cuda-11.3/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers -- -j12 -l12
+[1.832s] [ 50%] [32mBuilding CXX object CMakeFiles/minibot_controllers.dir/src/gpio_controller.cpp.o[0m
+[10.918s] [100%] [32m[1mLinking CXX shared library libminibot_controllers.so[0m
+[11.415s] [100%] Built target minibot_controllers
+[11.421s] Invoked command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers' returned '0': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/path/to/qt/lib:/usr/local/cuda-11.3/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers -- -j12 -l12
+[11.438s] Invoking command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/path/to/qt/lib:/usr/local/cuda-11.3/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers
+[11.443s] -- Install configuration: ""
+[11.443s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/controller_plugins.xml
+[11.443s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/lib/libminibot_controllers.so
+[11.449s] -- Set runtime path of "/home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/lib/libminibot_controllers.so" to ""
+[11.449s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/include
+[11.450s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/include/minibot_gpio_controller
+[11.450s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/include/minibot_gpio_controller/gpio_controller.hpp
+[11.450s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/controller_plugins.xml
+[11.450s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/environment/library_path.sh
+[11.450s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/environment/library_path.dsv
+[11.450s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/ament_index/resource_index/package_run_dependencies/minibot_controllers
+[11.450s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/ament_index/resource_index/parent_prefix_path/minibot_controllers
+[11.450s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/environment/ament_prefix_path.sh
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/environment/ament_prefix_path.dsv
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/environment/path.sh
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/environment/path.dsv
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/local_setup.bash
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/local_setup.sh
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/local_setup.zsh
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/local_setup.dsv
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/package.dsv
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/ament_index/resource_index/packages/minibot_controllers
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/minibot_controllers
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/cmake/minibot_controllersConfig.cmake
+[11.451s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/cmake/minibot_controllersConfig-version.cmake
+[11.452s] -- Installing: /home/han/Desktop/Han_ws/10.minibot/install/minibot_controllers/share/minibot_controllers/package.xml
+[11.453s] Invoked command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers' returned '0': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/path/to/qt/lib:/usr/local/cuda-11.3/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers

@@ -1,0 +1,10 @@
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/uninstall.dir
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/minibot_controllers_uninstall.dir
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/minibot_controllers.dir
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/test.dir
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/edit_cache.dir
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/rebuild_cache.dir
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/list_install_components.dir
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/install.dir
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/install/local.dir
+/home/han/Desktop/Han_ws/10.minibot/build/minibot_controllers/CMakeFiles/install/strip.dir

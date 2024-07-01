@@ -1,0 +1,32 @@
+[0.009s] Invoking command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_hardware_interface': /usr/bin/cmake /home/han/Desktop/Han_ws/10.minibot/src/pinklab_minibot_robot/minibot_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/han/Desktop/Han_ws/10.minibot/install/minibot_hardware_interface
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.169s] -- The CXX compiler identification is GNU 11.4.0
+[0.177s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.244s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.244s] -- Detecting C compile features
+[0.245s] -- Detecting C compile features - done
+[0.247s] -- Detecting CXX compiler ABI info
+[0.309s] -- Detecting CXX compiler ABI info - done
+[0.321s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.336s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.336s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.336s]   has asked CMake to find a package configuration file provided by
+[0.336s]   "ament_cmake", but CMake did not find one.
+[0.336s] 
+[0.336s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.336s]   any of the following names:
+[0.336s] 
+[0.336s]     ament_cmakeConfig.cmake
+[0.336s]     ament_cmake-config.cmake
+[0.336s] 
+[0.336s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.336s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.336s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.336s]   has been installed.
+[0.336s] 
+[0.336s] [0m
+[0.336s] -- Configuring incomplete, errors occurred!
+[0.337s] See also "/home/han/Desktop/Han_ws/10.minibot/build/minibot_hardware_interface/CMakeFiles/CMakeOutput.log".

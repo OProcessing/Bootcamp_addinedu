@@ -1,0 +1,9 @@
+setup.py
+minibot_interfaces/__init__.py
+minibot_interfaces.egg-info/PKG-INFO
+minibot_interfaces.egg-info/SOURCES.txt
+minibot_interfaces.egg-info/dependency_links.txt
+minibot_interfaces.egg-info/top_level.txt
+minibot_interfaces/msg/__init__.py
+minibot_interfaces/msg/_lamp_command.py
+minibot_interfaces/msg/_robot_state.py

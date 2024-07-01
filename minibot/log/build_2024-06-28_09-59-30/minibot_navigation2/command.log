@@ -1,0 +1,2 @@
+Invoking command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_navigation2': /usr/bin/cmake /home/han/Desktop/Han_ws/10.minibot/src/pinklab_minibot_robot/minibot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/han/Desktop/Han_ws/10.minibot/install/minibot_navigation2
+Invoked command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_navigation2' returned '1': /usr/bin/cmake /home/han/Desktop/Han_ws/10.minibot/src/pinklab_minibot_robot/minibot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/han/Desktop/Han_ws/10.minibot/install/minibot_navigation2

@@ -1,0 +1,30 @@
+[0.015s] Invoking command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_gazebo': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_description:/opt/ros/humble /usr/bin/cmake --build /home/han/Desktop/Han_ws/10.minibot/build/minibot_gazebo -- -j12 -l12
+[0.047s] Invoked command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_description:/opt/ros/humble /usr/bin/cmake --build /home/han/Desktop/Han_ws/10.minibot/build/minibot_gazebo -- -j12 -l12
+[0.063s] Invoking command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_gazebo': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_description:/opt/ros/humble /usr/bin/cmake --install /home/han/Desktop/Han_ws/10.minibot/build/minibot_gazebo
+[0.068s] -- Install configuration: ""
+[0.068s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/launch
+[0.068s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/launch/bringup_gazebo.launch.py
+[0.068s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/worlds
+[0.068s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/worlds/simple_building.world
+[0.069s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/worlds/empty.world
+[0.069s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/models
+[0.069s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/models/simple_building
+[0.069s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/models/simple_building/model.sdf
+[0.069s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/models/simple_building/model.config
+[0.069s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/models/.empty
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/ament_index/resource_index/package_run_dependencies/minibot_gazebo
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/ament_index/resource_index/parent_prefix_path/minibot_gazebo
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/environment/ament_prefix_path.sh
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/environment/ament_prefix_path.dsv
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/environment/path.sh
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/environment/path.dsv
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/local_setup.bash
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/local_setup.sh
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/local_setup.zsh
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/local_setup.dsv
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/package.dsv
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/ament_index/resource_index/packages/minibot_gazebo
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/cmake/minibot_gazeboConfig.cmake
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/cmake/minibot_gazeboConfig-version.cmake
+[0.070s] -- Up-to-date: /home/han/Desktop/Han_ws/10.minibot/install/minibot_gazebo/share/minibot_gazebo/package.xml
+[0.071s] Invoked command in '/home/han/Desktop/Han_ws/10.minibot/build/minibot_gazebo' returned '0': AMENT_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/han/Desktop/Han_ws/10.minibot/install/minibot_description:/opt/ros/humble /usr/bin/cmake --install /home/han/Desktop/Han_ws/10.minibot/build/minibot_gazebo
