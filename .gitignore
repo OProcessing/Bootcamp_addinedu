@@ -1,4 +1,4 @@
-00.Dyros
+Dyros_bootcamp/
 01.EDA/driver/
 01.EDA/data/
 02.SQL/driver/
@@ -9,6 +9,6 @@
 06.openCV/data/
 07.ML/data/
 08.YOLO/data/
-09.ROS/
+ROS2_tutorial/
 minibot/
 
