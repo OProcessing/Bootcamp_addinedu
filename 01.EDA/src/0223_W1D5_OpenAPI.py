@@ -44,8 +44,8 @@ def delete_tag(input_str):
     return input_str
 
 
-client_id = "IOl6paNnk1XUsiy0zOCi"
-client_secret = "0dwDGAUj6W"
+client_id = "id"
+client_secret = "pw"
 
 for n in range(1,1000,100):
     url = gen_search_url('shop', '"풀"', n, 100)
