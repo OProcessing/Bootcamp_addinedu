@@ -74,6 +74,7 @@ for idx, row in ediya.iterrows():
 
 ```
 
+## EDA_프로젝트
 
 ## 03_Git
 commit, log, version, branch
@@ -83,6 +84,8 @@ I/O, Timer, callback, register
 
 ## 05_PyQt
 PyQt with arduino, MySQL
+
+## IOT_프로젝트
 
 ## 06_openCV
 openCV, image processing, mask, overlay, projection
@@ -102,10 +105,36 @@ MNIST, CNN, VGG, Transfer learning\
 
 딥러닝 oneday 프로젝트
 * OX 이진구분 [[URL]](https://github.com/OProcessing/Bootcamp_addinedu/blob/main/07_MachineLearning/src/0508_W12D3C1_OneDay.ipynb)
+```python
+model = models.Sequential([
+    layers.Conv2D(32, (3,3), activation='relu', input_shape=(128, 128, 3)),
+    layers.MaxPooling2D(pool_size=(2, 2), strides=(2, 2)),
+    layers.Dropout(0.24),
+
+    layers.Conv2D(64, (3,3), activation='relu', padding='same'),
+    layers.MaxPooling2D(pool_size=(2, 2)),
+    layers.Dropout(0.25),
+
+    layers.Conv2D(64, (3,3), activation='relu', padding='same'),
+    layers.MaxPooling2D(pool_size=(2, 2)),
+    layers.Dropout(0.25),
+
+    layers.Flatten(),
+    layers.Dense(512, activation='relu'),
+    layers.Dropout(0.25),
+    layers.Dense(2, activation='softmax')
+])
+model.summary()
+```
 ---
 ## 08_YOLO
 Segment, Tracking, Pose Estimation
 
+## 딥러닝 프로젝트
+* ~~경로 추적 및 예측 [[URL]](https://github.com/OProcessing/Bootcamp_addinedu/blob/main/08_YOLO/src/PJ.ipynb)~~
+
 ## ESP32
 ## ROS
 ## docker
+
+## ROS 프로젝트
