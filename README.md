@@ -1,16 +1,24 @@
 ## [ADDINEDU](https://github.com/addinedu-ros-5th) ROS 개발 역량 강화를 위한 AI 자율주행 로봇 과정 5기
 
-### 01_EDA\
-python basic skills and libraries, numpy, pandas, matplotlib, seaborn, folium, beautifulSoup, googlemaps, selenium\
-oneday project\
-01_EDA/src/0229_eda_bigbang_han.ipynb\
-01_EDA/src/0229_eda_gasStation_han.ipynb\
-01_EDA/src/0229_eda_applyhome_han.ipynb\
+### 01_EDA
+파이썬 기초와 라이브러리 numpy, pandas\
+시각화 matplotlib, seaborn, folium, googlemaps\
+크롤링 beautifulSoup,  selenium
 
-### 02_SQL\
-database and query basic skills\
-oneday project\
+EDA oneday 프로젝트
+* 빅뱅이론 정보 수집 [[URL]](https://github.com/OProcessing/Bootcamp_addinedu/blob/main/01_EDA/src/0229_eda_bigbang_han.ipynb)\
+* 주유소 정보 수집 [[URL]](https://github.com/OProcessing/Bootcamp_addinedu/blob/main/01_EDA/src/0229_eda_gasStation_han.ipynb)\
+* ~~주택청약 정보 수집 [[URL]](https://github.com/OProcessing/Bootcamp_addinedu/blob/main/01_EDA/src/0229_eda_applyhome_han.ipynb)~~
+
+
+
+### 02_SQL
+DB 구축과 SQL 기초
+
+SQL oneday 프로젝트
 02_SQL/src/starbucks_edia_Han.ipynb
+[[URL]](https://github.com/OProcessing/Bootcamp_addinedu/blob/main/02_SQL/src/starbucks_edia_Han.ipynb)
+
 
 ### 03_Git
 commit, log, version, branch\
