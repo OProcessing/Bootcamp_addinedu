@@ -1,26 +1,26 @@
 # [ADDINEDU](https://github.com/addinedu-ros-5th) ROS 개발 역량 강화를 위한 AI 자율주행 로봇 과정 5기
 ## 목차
-1. [EDA](#01_eda)
+1. [EDA](#eda)
     - [EDA oneday 프로젝트](#eda-oneday-프로젝트)
-2. [SQL](#02_sql)
+2. [SQL](#sql)
     - [SQL oneday 프로젝트](#sql-oneday-프로젝트)
 3. [EDA_Project](#eda_project)
-4. [Git](#03_git)
-5. [Arduino](#04_arduino)
-6. [PyQt](#05_pyqt)
+4. [Git](#git)
+5. [Arduino](#arduino)
+6. [PyQt](#pyqt)
 7. [IOT_Project](#iot_project)
-8. [OpenCV](#06_opencv)
-9. [Machine Learning](#07_machine-learning)
+8. [OpenCV](#opencv)
+9. [Machine Learning](#machine-learning)
     - [머신러닝 oneday 프로젝트](#머신러닝-oneday-프로젝트)
     - [딥러닝 oneday 프로젝트](#딥러닝-oneday-프로젝트)
-10. [You Only Look Once](#08_yolo)
+10. [You Only Look Once](#yolo)
 11. [DeepLearning_Project](#deeplearning_project)
 12. [ESP32](#esp32)
 13. [ROS2](#ros2)
     - [ROS2 oneday 프로젝트](#ros2-oneday-프로젝트)
 14. [docker](#docker)
 15. [ROS2 프로젝트](#ros2-프로젝트)
-## 01_EDA
+## EDA
 
 파이썬 기초와 라이브러리 numpy, pandas\
 시각화 matplotlib, seaborn, folium, googlemaps\
@@ -63,7 +63,7 @@ for season in tqdm(seasons):
 &nbsp;
 
 &nbsp;
-## 02_SQL
+## SQL
 DB 구축과 SQL 기초
 
 ### SQL oneday 프로젝트
@@ -121,7 +121,7 @@ len(match_data)
 &nbsp;
 
 &nbsp;
-## 03_Git
+## Git
 commit, log, version, branch
 
 &nbsp;
@@ -129,7 +129,7 @@ commit, log, version, branch
 &nbsp;
 
 &nbsp;
-## 04_arduino
+## Arduino
 I/O, Timer, callback, register
 
 &nbsp;
@@ -137,7 +137,7 @@ I/O, Timer, callback, register
 &nbsp;
 
 &nbsp;
-## 05_PyQt
+## PyQt
 PyQt를 활용한 GUI에서 데이터베이스 호출, 쿼리 작성, 시각화와 아두이노 I/O 데이터 출력
 
 &nbsp;
@@ -155,7 +155,7 @@ PyQt를 활용한 GUI에서 데이터베이스 호출, 쿼리 작성, 시각화�
 &nbsp;
 
 &nbsp;
-## 06_openCV
+## openCV
 openCV, image processing, mask, overlay, projection
 
 &nbsp;
@@ -163,7 +163,7 @@ openCV, image processing, mask, overlay, projection
 &nbsp;
 
 &nbsp;
-## 07_Machine Learning
+## Machine Learning
 환경 설정 cuda, tensor flow\
 라이브러리 sklearn\
 데이터 전처리\
@@ -218,7 +218,7 @@ model.summary()
 &nbsp;
 
 &nbsp;
-## 08_YOLO
+## YOLO
 Segment, Tracking, Pose Estimation
 
 &nbsp;
