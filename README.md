@@ -265,13 +265,31 @@ TCP 통신
 
 &nbsp;
 ## ROS2
-ROS2 node, topic, service, action, publisher, subscriber, pkg, openCV
+ROS2 기초와 통신\
+node, topic, service, action, publisher, subscriber, pkg, openCV
 
 ### ROS2 oneday 프로젝트
 * publisher [[URL]](https://github.com/OProcessing/ROS2_tutorial/blob/main/ROS_tutorial/src/my_first_package/my_first_package/oneday_set_flag.py)
 * subscriber [[URL]](https://github.com/OProcessing/ROS2_tutorial/blob/main/ROS_tutorial/src/my_first_package/my_first_package/oneday_subscriber.py)
 * 터틀심 tracking [[URL]](https://github.com/OProcessing/ROS2_tutorial/blob/main/ROS_tutorial/src/my_first_package/my_first_package/oneday_pen.py)
+```python
+class OnedayPen(Node) :
+    def __init__(self) :
+        super().__init__('turtlesim_subscriber')
+        self.subscription = self.create_subscription(Pose, '/turtle1/pose', self.pen_callback, 10)
+        self.subscription
+        self.cli = self.create_client(SetPen, '/turtle1/set_pen')
+        while not self.cli.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Service not available, waiting again...')
+        self.pen_state = None
 
+    def pen_callback(self, msg):
+        if msg.x < 5 :
+            if self.pen_state != 'red':
+                self.pen_state = 'red'
+                print(f"X is below 5: {msg.x}")
+                self.set_pen(255, 0, 0)
+```
 &nbsp;
 
 &nbsp;
@@ -286,3 +304,16 @@ docker
 
 &nbsp;
 ## ROS2 프로젝트
+```python
+class MoveToGoalNode(Node):
+    def __init__(self):
+        super().__init__('move_to_goal_node')
+        self.cmd_vel_publisher = self.create_publisher(Twist, '/base_controller/cmd_vel_unstamped', 10)
+        self.amcl_subscriber = self.create_subscription(PoseWithCovarianceStamped, '/amcl_pose', self.amcl_pose_callback, 10)
+        self.goal_x = 0.4565105916649657  # 목표 위치의 x 좌표
+        self.goal_y = -0.3396688475363866  # 목표 위치의 y 좌표
+        self.position = {'x': 0.0, 'y': 0.0, 'theta': 0.0}
+        self.pid_linear = PID(P=1.0, I=0.0, D=0.0, max_state=1.0, min_state=-1.0, dt=0.1)
+        self.pid_angular = PID(P=2.0, I=0.0, D=0.0, max_state=1.0, min_state=-1.0, dt=0.1)
+        self.timer = self.create_timer(0.1, self.timer_callback)  # 0.1초마다 호출
+```
