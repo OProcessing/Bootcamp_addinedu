@@ -1,5 +1,10 @@
 # [ADDINEDU](https://github.com/addinedu-ros-5th) ROS 개발 역량 강화를 위한 AI 자율주행 로봇 과정 5기
 ## 목차
+* [EDA_Project](#eda_project)
+* [IOT_Project](#iot_project)
+* [DeepLearning_Project](#deeplearning_project)
+* [ROS2 Project](#ros2-project) [[발표자료]](https://drive.google.com/file/d/1u7p1qvFQfR4MbU1mCab4wyTx3OiSx4Id/view?usp=drive_link)
+---
 1. [EDA](#eda)
     - [EDA oneday 프로젝트](#eda-oneday-프로젝트)
 2. [SQL](#sql)
@@ -303,8 +308,8 @@ docker
 &nbsp;
 
 &nbsp;
-## ROS2 프로젝트
-* ROS2 프로젝트 [[URL]](https://github.com/addinedu-ros-5th/ros-repo-1)
+## ROS2 project
+* ROS2 project [[URL]](https://github.com/addinedu-ros-5th/ros-repo-1)
 ```python
 class MoveToGoalNode(Node):
     def __init__(self):
