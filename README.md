@@ -24,7 +24,8 @@
 13. [ROS2](#ros2)
     - [ROS2 oneday 프로젝트](#ros2-oneday-프로젝트)
 14. [docker](#docker)
-15. [ROS2 프로젝트](#ros2-프로젝트)
+15. [ROS2 project](#ros2-project)
+16. [extra curricular](#openrmf)
 ## EDA
 
 파이썬 기초와 라이브러리 numpy, pandas\
@@ -323,3 +324,17 @@ class MoveToGoalNode(Node):
         self.pid_angular = PID(P=2.0, I=0.0, D=0.0, max_state=1.0, min_state=-1.0, dt=0.1)
         self.timer = self.create_timer(0.1, self.timer_callback)  # 0.1초마다 호출
 ```
+
+## openRMF
+[[URL]](https://github.com/OProcessing/openRMF_study.git)\
+traffic editor를 활용한 가상 환경 제작\
+시뮬레이션 환경에서 다수의 로봇 동작\
+Gazebo와 rviz에서 동작 확인
+
+reference
+open-rmf : https://github.com/open-rmf \
+rmf-demos : https://github.com/open-rmf/rmf_demos \
+fleet-adpater : https://github.com/open-rmf/fleet_adapter_template
+
+pinklab : https://github.com/pinklabstudio \
+minibot : https://github.com/pinklabstudio/pinklab_minibot_robot
