@@ -1,9 +1,9 @@
 # [ADDINEDU](https://github.com/addinedu-ros-5th) ROS 개발 역량 강화를 위한 AI 자율주행 로봇 과정 5기
 ## 목차
 * [EDA_Project](#eda_project)
-* [IOT_Project](#iot_project)
+* [IoT_Project](#iot_project)
 * [DeepLearning_Project](#deeplearning_project)
-* [ROS2 Project](#ros2-project) [[발표자료]](https://drive.google.com/file/d/1u7p1qvFQfR4MbU1mCab4wyTx3OiSx4Id/view?usp=drive_link)
+* [ROS2 Project](#ros2-project)
 ---
 1. [EDA](#eda)
     - [EDA oneday 프로젝트](#eda-oneday-프로젝트)
@@ -13,7 +13,7 @@
 4. [Git](#git)
 5. [Arduino](#arduino)
 6. [PyQt](#pyqt)
-7. [IOT_Project](#iot_project)
+7. [IoT_Project](#iot_project)
 8. [OpenCV](#opencv)
 9. [Machine Learning](#machine-learning)
     - [머신러닝 oneday 프로젝트](#머신러닝-oneday-프로젝트)
@@ -150,8 +150,8 @@ PyQt를 활용한 GUI에서 데이터베이스 호출, 쿼리 작성, 시각화�
 &nbsp;
 
 &nbsp;
-## IOT_Project
-[[IOT 프로젝트]](https://github.com/addinedu-ros-5th/iot-repo-3/blob/main/README.md)\
+## IoT_Project
+[[IoT 프로젝트]](https://github.com/addinedu-ros-5th/iot-repo-3/blob/main/README.md)\
 물류센터에서의 입고부터 출고, 고객 배송까지의 과정을 시스템을 구현\
 시스템 관리를 위한 GUI 제작, Log 기록을 통한 관리, 동작 구현과 유기적인 시스템 제작
 
