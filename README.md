@@ -151,7 +151,7 @@ PyQt를 활용한 GUI에서 데이터베이스 호출, 쿼리 작성, 시각화�
 
 &nbsp;
 ## IoT_Project
-[[IoT 프로젝트]](https://github.com/addinedu-ros-5th/iot-repo-3/blob/main/README.md)\
+[[IoT 프로젝트]](https://github.com/addinedu-ros-5th/iot-repo-3)\
 물류센터에서의 입고부터 출고, 고객 배송까지의 과정을 시스템을 구현\
 시스템 관리를 위한 GUI 제작, Log 기록을 통한 관리, 동작 구현과 유기적인 시스템 제작
 
