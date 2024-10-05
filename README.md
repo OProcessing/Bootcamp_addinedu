@@ -25,7 +25,7 @@
     - [ROS2 oneday 프로젝트](#ros2-oneday-프로젝트)
 14. [docker](#docker)
 15. [ROS2 project](#ros2-project)
-16. [extra curricular openRMF](#openrmf)
+16. [extra curricular [openRMF]](#openrmf)
 ## EDA
 
 파이썬 기초와 라이브러리 numpy, pandas\
